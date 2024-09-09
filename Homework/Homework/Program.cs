@@ -6,6 +6,7 @@ Console.WriteLine("Напишите первое число + ЭНТЕР и др
 //char.TryParse(Console.ReadLine(), out char c);
 
 
+
 if (int.TryParse(Console.ReadLine(), out int a))
 {
    //обработка
@@ -18,6 +19,8 @@ Console.WriteLine("введён корректный символ!");
         
 return;
 }
+
+Console.WriteLine("Попробуйте ввести оператор: & | или ^, для проверки системы ошибок");
 
 if (int.TryParse(Console.ReadLine(), out int b))
 {
@@ -32,6 +35,8 @@ else
     return;
 }
 
+Console.WriteLine("А теперь знак + или - или * или / для операции подсчёта результата");
+
 if (char.TryParse(Console.ReadLine(), out char c))
 {
     //обработка
@@ -44,6 +49,7 @@ else
 
     return;
 }
+
 
 switch (c)
 {
