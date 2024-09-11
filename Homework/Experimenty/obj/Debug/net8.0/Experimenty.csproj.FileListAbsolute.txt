@@ -1,0 +1,15 @@
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\bin\Debug\net8.0\Experimenty.exe
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\bin\Debug\net8.0\Experimenty.deps.json
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\bin\Debug\net8.0\Experimenty.runtimeconfig.json
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\bin\Debug\net8.0\Experimenty.dll
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\bin\Debug\net8.0\Experimenty.pdb
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\obj\Debug\net8.0\Experimenty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\obj\Debug\net8.0\Experimenty.AssemblyInfoInputs.cache
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\obj\Debug\net8.0\Experimenty.AssemblyInfo.cs
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\obj\Debug\net8.0\Experimenty.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\obj\Debug\net8.0\Experimenty.sourcelink.json
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\obj\Debug\net8.0\Experimenty.dll
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\obj\Debug\net8.0\refint\Experimenty.dll
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\obj\Debug\net8.0\Experimenty.pdb
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\obj\Debug\net8.0\Experimenty.genruntimeconfig.cache
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\Experimenty\obj\Debug\net8.0\ref\Experimenty.dll
