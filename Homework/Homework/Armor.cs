@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 
 namespace Homework;
+
 public class ArmorPiece
 {
     public string Name { get; }
