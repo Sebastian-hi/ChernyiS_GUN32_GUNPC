@@ -8,39 +8,51 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 
 namespace Homework;
-
- public class Helm
- {
-
+public class ArmorPiece
+{
     public string Name { get; }
+    private float armor;
 
-    public float Armor { get; set; }
-
-    public Helm(string name = "Helm")
+    public ArmorPiece(string name, float armor)
     {
         Name = name;
-    }
-
-    public Helm(float armor, string name  = "Helm"): this(name)
-    {
         Armor = armor;
-       
     }
 
-    //с этим типа закончил, так же с остальным
-
- }
-
-
-public class Shell
+    public float Armor
     {
-
-
+        get => armor;
+        set
+        {
+            if (value < 0f)
+            {
+                armor = 0f;
+                Console.WriteLine($"Некорректно заданное свойство для {Name}: значение < 0");
+            }
+            else if (value > 1f)
+            {
+                armor = 1f;
+                Console.WriteLine($"Некорректно заданное свойство для {Name}: значение > 1");
+            }
+            else
+            {
+                armor = value;
+            }
+        }
     }
-    public class Boots
-    {
+}
 
+public class Helm : ArmorPiece
+{
+    public Helm(float armor) : base("Helm", armor) { }
+}
 
-    }
+public class Shell : ArmorPiece
+{
+    public Shell(float armor) : base("Shell", armor) { }
+}
 
-
+public class Boots : ArmorPiece
+{
+    public Boots(float armor) : base("Boots", armor) { }
+}

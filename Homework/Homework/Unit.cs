@@ -2,60 +2,76 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework
+namespace Homework;
+
+public class Unit
 {
-    public class Unit
+    public string Name { get; }
+    private float health;
+    private Weapon weapon;
+    private Helm helm;
+    private Shell shell;
+    private Boots boots;
+    private const float baseDamage = 5f;
+
+    public Unit(string name, float health)
     {
+        Name = name;
+        this.health = health;
+    }
 
-        private float _health;
-        private float _armor;
-        
-        private Helm _helm;
+    public float Health => health;
 
-        public string Name { get; }
-
-        public float Health => _health;
-
-        public Unit() : this(name: "Unknown Unit", health: (10-100) ) { }  // БЛЯТЬ ЗДОРОВЬЕ?????
-
-
-        public Unit(string name, float health)
+    public float Damage
+    {
+        get
         {
-            Name = name;
-            _health = health;
+            float weaponDamage = weapon?.GetDamage() ?? 0;
+            return baseDamage + weaponDamage;
         }
+    }
 
-
-        public float RealHealth()  //"пустые скобки тк не имеет аргументов"
+    public float Armor
+    {
+        get
         {
-            return Health * (1 + Armor);
+            float totalArmor = 0;
+            if (helm != null) totalArmor += helm.Armor;
+            if (shell != null) totalArmor += shell.Armor;
+            if (boots != null) totalArmor += boots.Armor;
+            return (float)Math.Round(totalArmor, 2);
         }
+    }
 
-        public float Armor
-        {
+    public float RealHealth => health * (1f + Armor);
 
-            get { return (float)Math.Round(_armor, 2); }
-            set
-            {
+    public bool SetDamage(float value)
+    {
+        health -= value * Armor;
+        return health <= 0f;
+    }
 
-                if (value >= 0 || value <= 1)
-                {
-                    _armor = value;
-                }
-                else
-                {
-                    Console.WriteLine("Введите плез числа от 0 до 1,00");
-                }
-            }
-        }
+    public void EquipWeapon(Weapon weapon)
+    {
+        this.weapon = weapon;
+    }
 
+    public void EquipHelm(Helm helm)
+    {
+        this.helm = helm;
+    }
 
+    public void EquipShell(Shell shell)
+    {
+        this.shell = shell;
+    }
 
-        public void EquipHelm(Helm helm) {_helm = helm; }
-        public float Damage { get; set;}
-
+    public void EquipBoots(Boots boots)
+    {
+        this.boots = boots;
     }
 }
