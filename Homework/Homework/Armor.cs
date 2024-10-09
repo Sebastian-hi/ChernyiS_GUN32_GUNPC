@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace Homework;
 
-public class ArmorPiece
+public abstract class ArmorPiece
 {
     public string Name { get; }
     private float armor;

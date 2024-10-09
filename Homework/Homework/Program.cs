@@ -18,67 +18,66 @@ internal class Program
         Console.WriteLine("Подготовка к бою: ");                                    //#1
         Console.WriteLine("Введите имя бойца: ");                                   //#2
         string name = Console.ReadLine();
+        float health;
+        float helmArmor;
+        float shellArmor;
+        float bootsArmor;
+        float minDamage;
+        float maxDamage;
 
-
-        Console.WriteLine("Введите начальное здоровье бойца(10 - 100): ");          //#3
-
-        obratno: float.TryParse(Console.ReadLine(), out float health);
-            
-         if (health<10 || health>100)
-         {
-            Console.WriteLine("Напишите именно число от 10 до 100:");
-            goto obratno;
-         }
-         else { }
-
-
-        Console.WriteLine("Введите значение брони шлема от 0 до 1:");              //#4
-
-        obratno1:  float.TryParse(Console.ReadLine(), out float helmArmor);
-
-        if (helmArmor < 0 || helmArmor > 1)
+        do
         {
-            Console.WriteLine("Напишите именно число от 0 до 1: (например 0.5 может подойти..)");
-            goto obratno1;
-        }
-        else { }
+            Console.WriteLine("Введите начальное здоровье бойца(10 - 100): ");          //#3
 
-
-        Console.WriteLine("Введите значение брони кирасы от 0, до 1");              //#5
-
-        obratno2: float.TryParse(Console.ReadLine(), out float shellArmor);
-        if (shellArmor < 0 || shellArmor > 1)
-        {
-            Console.WriteLine("Напишите именно число от 0 до 1: (например 0.5 может  подойти..)");
-            goto obratno2;
-        }
-        else { }
-
-        Console.WriteLine("Введите значение брони сапог от 0, до 1:");              //#6
-
-        obratno3: float.TryParse(Console.ReadLine(), out float bootsArmor);
-        if (bootsArmor < 0 || bootsArmor > 1)
-        {
-            Console.WriteLine("Напишите именно число от 0 до 1: (например 0.5 может  подойти..)");
-            goto obratno3;
-        }
-        else { }
-
-        Console.WriteLine("Укажите минимальный урон оружия (0-20):");               //#7
-        obratno4:  float.TryParse(Console.ReadLine(), out float minDamage);
-        if (minDamage < 0 || minDamage > 20)
-        {
-            Console.WriteLine("Надо указать минимальное значение оружия именно в пределах от 0 до 20 включительно. Например 10...");
-            goto obratno4;
+            float.TryParse(Console.ReadLine(), out health);
         }
 
-        Console.WriteLine("Укажите максимальный урон оружия (20-40):");             //#8
-        obratno5: float.TryParse(Console.ReadLine(), out float maxDamage);
-        if (maxDamage < 20 || maxDamage > 40)
+        while ( health < 10 || health > 100);
+
+
+        do
         {
-            Console.WriteLine("Надо указать максимальный урон оружия именно в пределах от 20 до 40. Например 30! Решайте..");
-            goto obratno5;
+            Console.WriteLine("Введите значение брони шлема от 0 до 1:");              //#4
+
+            float.TryParse(Console.ReadLine(), out helmArmor);
         }
+        while (helmArmor < 0 || helmArmor > 1);
+
+
+        do
+        {
+            Console.WriteLine("Введите значение брони кирасы от 0 до 1");              //#5
+
+            float.TryParse(Console.ReadLine(), out shellArmor);
+
+        }
+        while (shellArmor < 0 || shellArmor > 1);
+
+
+        do
+        {
+            Console.WriteLine("Введите значение брони сапог от 0 до 1:");              //#6
+
+            float.TryParse(Console.ReadLine(), out bootsArmor);
+
+        }
+        while (bootsArmor < 0 || bootsArmor > 1);
+
+
+        do
+        {
+            Console.WriteLine("Укажите минимальный урон оружия (0-20):");               //#7
+            float.TryParse(Console.ReadLine(), out minDamage);
+        }
+        while (minDamage < 0 || minDamage > 20);
+
+
+        do
+        {
+            Console.WriteLine("Укажите максимальный урон оружия (20-40):");             //#8
+            float.TryParse(Console.ReadLine(), out maxDamage);
+        }
+        while (maxDamage < 20 || maxDamage > 40);
 
 
                                                                                     // Создание экземпляров брони
