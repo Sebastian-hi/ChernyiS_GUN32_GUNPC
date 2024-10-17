@@ -11,7 +11,7 @@ namespace Homework;
 public class Unit
 {
     public string Name { get; }
-    private float health;
+    public float health;
     private Weapon weapon;
     private Helm helm;
     private Shell shell;
