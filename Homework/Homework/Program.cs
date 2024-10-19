@@ -211,6 +211,7 @@ internal class Program
         Console.WriteLine();
         Console.WriteLine("Начало битвы!");
         Combat.StartCombat(unit, unit1);
+        //Combat.Rate();
 
     }
        

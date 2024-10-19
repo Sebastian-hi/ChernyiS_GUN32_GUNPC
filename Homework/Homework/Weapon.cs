@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -56,5 +57,57 @@ public class Weapon
     public float GetDamage()
     {
         return (minDamage + maxDamage) / 2;
+    }
+
+    public struct Interval
+    {
+
+        private float minValue;
+        private float maxValue;
+
+        public Interval(int minValue, int maxValue)
+            : this ((float) minValue, (float) maxValue) {}
+
+        public Interval(float minValue, float maxValue)
+        {
+            
+            if (minValue > maxValue)
+            {
+                Console.WriteLine("Некорректные входные данные. minValue больше maxValue");
+                this.minValue = maxValue;
+                this.maxValue = minValue;
+            }
+            else
+            {
+                this.minValue = minValue;
+                this.maxValue = maxValue;
+            }
+        }
+
+        public float Get(float minValue, float maxValue)                                                               //свойства
+        {
+            Random random = new Random();
+
+            float i = random.Next((int)minValue, (int)maxValue);
+            return i;
+        }
+        
+        public float Min(float minValue, float maxValue)
+        {
+            return minValue;
+        }
+
+        public float Max(float minValue, float maxValue)
+        {
+            return maxValue;
+        }
+
+        public float Average(float minValue, float maxValue)
+        {
+            float i = (minValue + maxValue) / 2;
+            return i;
+        }
+
+
     }
 }
