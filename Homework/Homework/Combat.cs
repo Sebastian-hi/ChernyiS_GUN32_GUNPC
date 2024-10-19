@@ -69,9 +69,9 @@ internal class Combat
                 Health = health;
             }
 
-            public string Name;
-            public float Damage;
-            public float Health;
+            internal string Name;
+            internal float Damage;
+            internal float Health;
         }
 
 

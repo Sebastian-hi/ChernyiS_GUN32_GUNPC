@@ -57,7 +57,7 @@ public class Weapon
     public float GetDamage()
     {
         return (minDamage + maxDamage) / 2;
-    }
+    } 
 
     public struct Interval
     {
@@ -88,8 +88,8 @@ public class Weapon
         {
             Random random = new Random();
 
-            float i = random.Next((int)minValue, (int)maxValue);
-            return i;
+            float between = random.Next((int)minValue, (int)maxValue);
+            return between;
         }
         
         public float Min(float minValue, float maxValue)
@@ -104,8 +104,8 @@ public class Weapon
 
         public float Average(float minValue, float maxValue)
         {
-            float i = (minValue + maxValue) / 2;
-            return i;
+            float average = (minValue + maxValue) / 2;
+            return average;
         }
 
 
