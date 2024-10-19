@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\homework\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|solutionrelative:homework\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\homework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|solutionrelative:homework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\homework\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|solutionrelative:homework\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\homework\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,30 +30,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\Homework\\Program.cs",
               "RelativeDocumentMoniker": "Homework\\Program.cs",
               "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\Homework\\Program.cs",
               "RelativeToolTip": "Homework\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANgAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAQwNAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T17:59:16.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Combat.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\Homework\\Combat.cs",
               "RelativeDocumentMoniker": "Homework\\Combat.cs",
               "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\Homework\\Combat.cs",
               "RelativeToolTip": "Homework\\Combat.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAQwC0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T11:00:39.016Z",
               "EditorCaption": ""
@@ -66,10 +66,9 @@
               "RelativeDocumentMoniker": "Homework\\Weapon.cs",
               "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\Homework\\Weapon.cs",
               "RelativeToolTip": "Homework\\Weapon.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAADwvxkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAkwGQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T11:02:15.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T11:02:15.27Z"
             },
             {
               "$type": "Document",

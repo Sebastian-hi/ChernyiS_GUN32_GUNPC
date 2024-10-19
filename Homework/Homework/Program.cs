@@ -211,8 +211,11 @@ internal class Program
         Console.WriteLine();
         Console.WriteLine("Начало битвы!");
         Combat.StartCombat(unit, unit1);
-        //Combat.Rate();
+        Console.WriteLine();
+        Console.WriteLine("Бой завершился!");
+        Combat.ShowResults();
+    
 
-    }
+     }
        
 }   
