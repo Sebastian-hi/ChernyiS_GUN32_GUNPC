@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|solutionrelative:homework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\homework\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|solutionrelative:homework\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\homework\\armor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|solutionrelative:homework\\armor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\homework\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|solutionrelative:homework\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\homework\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11CAA2E2-A2AF-43C6-8E78-859C663BFC35}|Homework\\Homework.csproj|solutionrelative:homework\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -40,22 +40,9 @@
               "RelativeDocumentMoniker": "Homework\\Program.cs",
               "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\Homework\\Program.cs",
               "RelativeToolTip": "Homework\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAQwBIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAQwNkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T17:59:16.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Combat.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\Homework\\Combat.cs",
-              "RelativeDocumentMoniker": "Homework\\Combat.cs",
-              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\Homework\\Combat.cs",
-              "RelativeToolTip": "Homework\\Combat.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAQwEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T11:00:39.016Z",
               "EditorCaption": ""
             },
             {
@@ -66,26 +53,40 @@
               "RelativeDocumentMoniker": "Homework\\Weapon.cs",
               "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\Homework\\Weapon.cs",
               "RelativeToolTip": "Homework\\Weapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T11:02:15.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Unit.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\Homework\\Unit.cs",
               "RelativeDocumentMoniker": "Homework\\Unit.cs",
               "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\Homework\\Unit.cs",
               "RelativeToolTip": "Homework\\Unit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:32:21.439Z"
+              "WhenOpened": "2024-10-03T13:32:21.439Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "Combat.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\Homework\\Combat.cs",
+              "RelativeDocumentMoniker": "Homework\\Combat.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\Homework\\Combat.cs",
+              "RelativeToolTip": "Homework\\Combat.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T11:00:39.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Armor.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\Homework\\Armor.cs",
               "RelativeDocumentMoniker": "Homework\\Armor.cs",

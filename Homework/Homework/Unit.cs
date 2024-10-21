@@ -29,9 +29,8 @@ public class Unit
     public float Damage
     {
         get
-        {
-            float weaponDamage = weapon?.GetDamage() ?? 0;
-            return baseDamage + weaponDamage;
+        { 
+            return weapon.GetInterval(); 
         }
     }
 

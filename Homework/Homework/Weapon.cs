@@ -10,54 +10,30 @@ namespace Homework;
 public class Weapon
 {
     public string Name { get; }
-    private float minDamage;
-    private float maxDamage;
+    private float minValue;
+    private float maxValue;
+
 
     public Weapon(string name)
     {
         Name = name;
-        SetDamageParams(1f, 10f); // Значения по умолчанию
     }
 
-    public Weapon(string name, float minDamage, float maxDamage) : this(name)
+    public Weapon(string name, float minValue, float maxValue) : this(name)
     {
-        SetDamageParams(minDamage, maxDamage);
+        this.minValue = minValue;
+        this.maxValue = maxValue;
     }
 
-    private void SetDamageParams(float minDamage, float maxDamage)
+    public float GetInterval() 
     {
-        if (minDamage > maxDamage)
-        {
-            float temp = minDamage;
-            minDamage = maxDamage;
-            maxDamage = temp;
-            Console.WriteLine($"Некорректные данные для оружия {Name}: мин. урон > макс. урон");
-        }
+        Interval interval = new Interval(minValue, maxValue);
 
-        if (minDamage < 1f)
-        {
-            this.minDamage = 1f;
-            Console.WriteLine($"Установка минимального значения для оружия {Name}");
-        }
-        else
-        {
-            this.minDamage = minDamage;
-        }
+        float dmg = interval.Get(minValue, maxValue);
+        return dmg;
 
-        if (maxDamage <= 1f)
-        {
-            this.maxDamage = 10f;
-        }
-        else
-        {
-            this.maxDamage = maxDamage;
-        }
     }
 
-    public float GetDamage()
-    {
-        return (minDamage + maxDamage) / 2;
-    } 
 
     public struct Interval
     {
@@ -66,36 +42,39 @@ public class Weapon
         private float maxValue;
 
         public Interval(int minValue, int maxValue)
-            : this ((float) minValue, (float) maxValue) {}
+        : this ((float) minValue, (float) maxValue) {}
 
-        public Interval(float minValue, float maxValue)
+        public Interval(float minValue, float maxValue) 
         {
-            
             if (minValue > maxValue)
             {
-                Console.WriteLine("Некорректные входные данные. minValue больше maxValue");
+                Console.WriteLine("Некорректные данные, минимальное значение не может быть больше максимального");
                 this.minValue = maxValue;
                 this.maxValue = minValue;
             }
+
             else
             {
                 this.minValue = minValue;
                 this.maxValue = maxValue;
             }
+
         }
 
-        public float Get(float minValue, float maxValue)                                                               //свойства
-        {
+
+         public float Get(float minValue, float maxValue)                                                               //свойства
+         {
             Random random = new Random();
 
             float between = random.Next((int)minValue, (int)maxValue);
             return between;
-        }
+         }
         
-        public float Min(float minValue, float maxValue)
-        {
-            return minValue;
-        }
+         public float Min(float minValue, float maxValue)
+         {
+            
+             return minValue;
+         }
 
         public float Max(float minValue, float maxValue)
         {
@@ -108,6 +87,6 @@ public class Weapon
             return average;
         }
 
-
+        
     }
 }

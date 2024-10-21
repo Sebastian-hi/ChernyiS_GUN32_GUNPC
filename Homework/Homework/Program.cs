@@ -209,10 +209,10 @@ internal class Program
         Combat combat = new Combat();
 
         Console.WriteLine();
-        Console.WriteLine("Начало битвы!");
+        Console.WriteLine("Начало битвы! ");
         Combat.StartCombat(unit, unit1);
         Console.WriteLine();
-        Console.WriteLine("Бой завершился!");
+        Console.WriteLine("Бой завершился! ");
         Combat.ShowResults();
     
 
