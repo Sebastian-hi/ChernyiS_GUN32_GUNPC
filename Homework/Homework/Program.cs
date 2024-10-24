@@ -45,14 +45,13 @@ namespace Homework
             }
         }
 
-
         internal class Class1
         {
             public void TaskLoop()
             {
 
                 Console.WriteLine();
-                Console.WriteLine("И так, первая задача. У нас есть список, сейчас мы напишим новую строку и добавим в него. ");
+                Console.WriteLine("И так, первая задача. У нас есть список рандомных слов, сейчас мы напишим новую строку и добавим в него. ");
                 Console.WriteLine();
                 Console.WriteLine("Если что, мы можем выйти из этой программы, если вы напишите '-exit'.");
                 Console.WriteLine("Если продолжаем - напишите любое слово.");
@@ -116,18 +115,18 @@ namespace Homework
                     Console.WriteLine("Введите имя студента: ");
                     string name = Console.ReadLine();
 
-                    Console.WriteLine("Так. И его оценку от 2 до 5 баллов: ");
-                    int assessment = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Так. И оценку от 2 до 5 баллов: ");
+                    int assessment;
 
                     do
                     {
-                        Console.WriteLine("Нужно ввести число именно от 2 до 5.");
-
                         assessment = int.Parse(Console.ReadLine());
 
                     }
-                    while (assessment < 2 || assessment > 5);
+                    while (assessment < 1 || assessment > 6);
 
+
+                    Console.WriteLine("Отлично. Теперь введите имя студента и мы посмотрим его оценку");
 
                     var students = new Dictionary<string, int>()
                     {
@@ -136,15 +135,13 @@ namespace Homework
 
                     };
 
-                    Console.WriteLine("Отлично. Теперь введите имя студента и мы посмотрим его оценку");
-
                     string name1 = Console.ReadLine();
 
                     Console.WriteLine();
 
                     if (name1 == name)
                     {
-                        Console.WriteLine($"Студент: {name} и его оценка {assessment}! ");
+                        Console.WriteLine($"Студент: {name} и оценка {assessment}! ");
                     }
 
                     else
