@@ -7,215 +7,314 @@ using System.Net.Http.Headers;
 using static System.Net.Mime.MediaTypeNames;
 using Homework;
 using System.Runtime.InteropServices;
+using System.Linq.Expressions;
+using System;
+using System.Runtime.Intrinsics.Arm;
+using System.Xml.Linq;
+using System.Runtime.CompilerServices;
+using System.Collections;
 
-namespace Homework;
-
-internal class Program
+namespace Homework
 {
-     static void Main(string[] args)
+    internal class Program
     {
-        float health;
-        float helmArmor;
-        float shellArmor;
-        float bootsArmor;
-        float minDamage;
-        float maxDamage;
-
-
-        Console.WriteLine("Подготовка к бою: ");
-        Console.WriteLine("Введите имя первого бойца: ");
-        string name = Console.ReadLine();
-
-
-        do                                                                                          // первый боец
+        static void Main(string[] args)
         {
-            Console.WriteLine($"Введите начальное здоровье бойца {name} (10 - 100): ");
 
-            float.TryParse(Console.ReadLine(), out health);
+            Console.WriteLine("Привет! Давай выберем одну из трёх задач. ");
+            Console.WriteLine("Напишите цифру от 1 до 3.");
+
+            int task = int.Parse(Console.ReadLine());
+
+            switch (task)                              // Выполнение задания в отдельном методе
+            {
+                case 1:
+
+                    CheckTaskFirst();
+                    break;
+
+                case 2:
+
+                    CheckTaskSecond();
+                    break;
+
+                case 3:
+                    CheckTaskThird();
+                    break;
+
+            }
         }
 
-        while (health < 10 || health > 100);
 
-
-        do
+        internal class Class1
         {
-            Console.WriteLine($"Введите значение брони шлема бойца {name} от 0 до 1:");
+            public void TaskLoop()
+            {
 
-            float.TryParse(Console.ReadLine(), out helmArmor);
+                Console.WriteLine();
+                Console.WriteLine("И так, первая задача. У нас есть список, сейчас мы напишим новую строку и добавим в него. ");
+                Console.WriteLine();
+                Console.WriteLine("Если что, мы можем выйти из этой программы, если вы напишите '-exit'.");
+                Console.WriteLine("Если продолжаем - напишите любое слово.");
+
+                string exit = Console.ReadLine();
+
+                if (exit != "-exit")
+                {
+                    Console.WriteLine("Хорошо. Продолжаем. Напишите новую строку в наш список. ");
+                    List<string> assignment = new List<string>() { "Кто хозяин болота?", "Черничный пирог", "Тыковки" };
+
+                    string text = Console.ReadLine();
+                    assignment.Add(text);
+
+                    Console.WriteLine();
+                    Console.WriteLine("Супер. А вот и наш список: ");
+
+                    foreach (string text1 in assignment)
+                    {
+                        Console.WriteLine(text1);
+                    }
+
+                    Console.WriteLine();
+                    Console.WriteLine("А теперь давайте вставим новую строку в середину нашего списка. Напишите её. ");
+
+                    string text2 = Console.ReadLine();
+                    assignment.Insert(2, text2);
+
+                    Console.WriteLine();
+                    Console.WriteLine("Отлично, теперь наш список выглядит так: ");
+
+                    foreach (string text1 in assignment)
+                    {
+                        Console.WriteLine(text1);
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Всё понятно, выходим из программы \n");
+                }
+            }
         }
-        while (helmArmor < 0 || helmArmor > 1);
-
-
-        do
+        internal class Class2
         {
-            Console.WriteLine($"Введите значение брони кирасы бойца {name} от 0 до 1");
+            public void TaskLoop()
+            {
 
-            float.TryParse(Console.ReadLine(), out shellArmor);
+                Console.WriteLine();
+                Console.WriteLine("Окей, вторая задача. В ней мы попробуем связать имя студента с его средней оценкой.");
+                Console.WriteLine();
+                Console.WriteLine("Если что, мы можем выйти из этой программы, если вы напишите '-exit'.");
+                Console.WriteLine("Если продолжаем - напишите любое слово.");
 
+                string exit = Console.ReadLine();
+
+                if (exit != "-exit")
+
+                {
+                    Console.WriteLine("Отлично. Продолжаем");
+                    Console.WriteLine();
+                    Console.WriteLine("Введите имя студента: ");
+                    string name = Console.ReadLine();
+
+                    Console.WriteLine("Так. И его оценку от 2 до 5 баллов: ");
+                    int assessment = int.Parse(Console.ReadLine());
+
+                    do
+                    {
+                        Console.WriteLine("Нужно ввести число именно от 2 до 5.");
+
+                        assessment = int.Parse(Console.ReadLine());
+
+                    }
+                    while (assessment < 2 || assessment > 5);
+
+
+                    var students = new Dictionary<string, int>()
+                    {
+
+                        [name] = assessment
+
+                    };
+
+                    Console.WriteLine("Отлично. Теперь введите имя студента и мы посмотрим его оценку");
+
+                    string name1 = Console.ReadLine();
+
+                    Console.WriteLine();
+
+                    if (name1 == name)
+                    {
+                        Console.WriteLine($"Студент: {name} и его оценка {assessment}! ");
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Такого студента в нашей базе нет. Попробуйте ввести недавнего студента. ");
+                        name1 = Console.ReadLine();
+                        Console.WriteLine($"Студент: {name} и его оценка {assessment}! ");
+                    }
+                }
+
+                else
+                {
+                    Console.WriteLine("Всё понятно, выходим из программы \n");
+                }
+            }
         }
-        while (shellArmor < 0 || shellArmor > 1);
 
-
-        do
+        internal class Class3
         {
-            Console.WriteLine($"Введите значение брони сапог бойца {name} от 0 до 1:");
 
-            float.TryParse(Console.ReadLine(), out bootsArmor);
+            public class Node<T>
+            {
+                public Node(T data) // Узел списка
+                {
 
+                    Data = data;
+
+                }
+                public T Data { get; set; }
+                public Node<T> Previous { get; set; }
+                public Node<T> Next { get; set; }
+
+            }
+
+            public class DoubleLinkedList<T> : IEnumerable<T>
+            {
+
+                Node<T> head; // головной/первый элемент
+                Node<T> tail; // последний/хвостовой элемент
+                int count;  // количество элементов в списке
+
+                public void Add(T data)
+                {
+                    Node<T> node = new Node<T>(data);
+
+                    if (head == null)
+                        head = node;
+                    else
+                    {
+                        tail.Next = node;
+                        node.Previous = tail;
+                    }
+                    tail = node;
+                    count++;
+                }
+                IEnumerator IEnumerable.GetEnumerator()
+                {
+                    return ((IEnumerable)this).GetEnumerator();
+                }
+
+                IEnumerator<T> IEnumerable<T>.GetEnumerator()
+                {
+                    Node<T> current = head;
+                    while (current != null)
+                    {
+                        yield return current.Data;
+                        current = current.Next;
+                    }
+                }
+
+                public IEnumerable<T> BackEnumerator()
+                {
+                    Node<T> current = tail;
+                    while (current != null)
+                    {
+                        yield return current.Data;
+                        current = current.Previous;
+                    }
+                }
+            }
+
+            public void TaskLoop()
+            {  
+                Console.WriteLine();
+                Console.WriteLine("Третья задача. Сейчас будем вводить от 3 до 6 элементов. А далее выведем его! ");
+                Console.WriteLine();
+                Console.WriteLine("Если что, мы можем выйти из этой программы, если вы напишите '-exit'.");
+                Console.WriteLine("Если продолжаем - напишите любое слово.");
+
+                string exit = Console.ReadLine();
+
+                if (exit != "-exit")
+                {
+
+                    Console.WriteLine();
+                    Console.WriteLine("Отлично, продолжаем.");
+                    Console.WriteLine("И так. Введите от 3 до 6 'элементов'. ");
+                    Console.WriteLine("Это могут быть как слова, так и цифры. ");
+
+                    DoubleLinkedList<object> Elements = new DoubleLinkedList<object>();
+
+
+                    for (int i = 0; i < 3; i++)
+                    {
+
+
+                        Console.WriteLine("Напишите элемент нашего списка:  ");
+                        object text = Console.ReadLine();
+                        Elements.Add(text);
+                    }
+
+                    Console.WriteLine("И так. Мы добавили 3 элемента.");
+
+                    Console.WriteLine("Хотите добавить ещё 3 элемента? Напишите: Yes/No");
+
+                    string answer = Console.ReadLine();
+
+                    if (answer == "Yes" )
+                    {
+                        for (int i = 0; i < 3; i++)
+                        {
+
+
+                            Console.WriteLine("Напишите элемент нашего списка:  ");
+                            object text = Console.ReadLine();
+                            Elements.Add(text);
+                        }
+                    }
+
+                    else { }
+
+                    Console.WriteLine();
+                    Console.WriteLine("Теперь посмотрим на наш список в прямом порядке: ");
+                    foreach (object element in Elements)
+                    {
+                        Console.WriteLine(element);
+                    }
+
+                    Console.WriteLine();
+                    Console.WriteLine("А Теперь обратном порядке: ");
+
+                    foreach (object element in Elements.BackEnumerator())
+                    {
+                        Console.WriteLine(element);
+                    }
+
+                }
+
+                else
+                {
+                    Console.WriteLine("Всё понятно, выходим из программы \n");
+                }
+            }
         }
-        while (bootsArmor < 0 || bootsArmor > 1);
+        internal static void CheckTaskFirst()
+    {
+        var listTask = new Class1();
+        listTask.TaskLoop();
+    }
 
+        internal static void CheckTaskSecond()
+    {
+        var listTask = new Class2();
+        listTask.TaskLoop();
+    }
 
-        do
+        internal static void CheckTaskThird()
         {
-            Console.WriteLine($"Укажите минимальный урон оружия бойца {name} (0-20):");
-            float.TryParse(Console.ReadLine(), out minDamage);
+            var listTask = new Class3();
+            listTask.TaskLoop();
         }
-        while (minDamage < 0 || minDamage > 20);
-
-
-        do
-        {
-            Console.WriteLine($"Укажите максимальный урон оружия бойца {name} (20-40):");
-            float.TryParse(Console.ReadLine(), out maxDamage);
-        }
-        while (maxDamage < 20 || maxDamage > 40);
-
-
-        // Создание экземпляров брони для первого бойца
-        Helm helm = new Helm(helmArmor);
-        Shell shell = new Shell(shellArmor);
-        Boots boots = new Boots(bootsArmor);
-
-        // Создание экземпляра оружия первого бойца
-        Weapon weapon = new Weapon("Sword", minDamage, maxDamage);
-
-        // Создание экземпляра первого бойца
-        Unit unit = new Unit(name, health);
-        unit.EquipHelm(helm);
-        unit.EquipShell(shell);
-        unit.EquipBoots(boots);
-        unit.EquipWeapon(weapon);
-
-
-        // второй боец
-
-
-        float health1;
-        float helmArmor1;
-        float shellArmor1;
-        float bootsArmor1;
-        float minDamage1;
-        float maxDamage1;
-
-        Console.WriteLine("Введите имя второго бойца: ");
-        string name1 = Console.ReadLine();
-
-
-        do
-        {
-            Console.WriteLine($"Введите начальное здоровье бойца {name1} (10 - 100): ");
-
-            float.TryParse(Console.ReadLine(), out health1);
-        }
-
-        while (health1 < 10 || health1 > 100);
-
-
-        do
-        {
-            Console.WriteLine($"Введите значение брони шлема бойца {name1} от 0 до 1:");
-
-            float.TryParse(Console.ReadLine(), out helmArmor1);
-        }
-        while (helmArmor1 < 0 || helmArmor1 > 1);
-
-
-        do
-        {
-            Console.WriteLine($"Введите значение брони кирасы бойца {name1} от 0 до 1");
-
-            float.TryParse(Console.ReadLine(), out shellArmor1);
-
-        }
-        while (shellArmor1 < 0 || shellArmor1 > 1);
-
-
-        do
-        {
-            Console.WriteLine($"Введите значение брони сапог бойца {name1} от 0 до 1:");
-
-            float.TryParse(Console.ReadLine(), out bootsArmor1);
-
-        }
-        while (bootsArmor1 < 0 || bootsArmor1 > 1);
-
-
-        do
-        {
-            Console.WriteLine($"Укажите минимальный урон оружия бойца {name1} (0-20):");
-            float.TryParse(Console.ReadLine(), out minDamage1);
-        }
-        while (minDamage1 < 0 || minDamage1 > 20);
-
-
-        do
-        {
-            Console.WriteLine($"Укажите максимальный урон оружия бойца {name1} (20-40):");
-            float.TryParse(Console.ReadLine(), out maxDamage1);
-        }
-        while (maxDamage1 < 20 || maxDamage1 > 40);
-
-
-        // Создание экземпляров брони для второго бойца
-        Helm helm1 = new Helm(helmArmor1);
-        Shell shell1 = new Shell(shellArmor1);
-        Boots boots1 = new Boots(bootsArmor1);
-
-        // Создание экземпляра оружия для второго
-        Weapon weapon1 = new Weapon("Sword", minDamage1, maxDamage1);
-
-        // Создание экземпляра юнита для второго
-        Unit unit1 = new Unit(name1, health1);
-        unit1.EquipHelm(helm1);
-        unit1.EquipShell(shell1);
-        unit1.EquipBoots(boots1);
-        unit1.EquipWeapon(weapon1);
-
-
-
-        Console.WriteLine();
-        Console.WriteLine("Отлично. Теперь посмотрим на них: ");
-        Console.WriteLine();
-
-                                                                            // Выводятся данные бойцов
-        Console.WriteLine($"И так! Первый боец у нас {name}");
-        Console.WriteLine($"Общий показатель брони  равен: {unit.Armor}");
-        Console.WriteLine($"Фактическое значение здоровья равно: {unit.RealHealth}");
-        Console.WriteLine($"Минимальный урон {minDamage}");
-        Console.WriteLine($"Максимальный урон {maxDamage}");
-
-
-        Console.WriteLine();
-        Console.WriteLine();
-
-        Console.WriteLine($"Второй боец у нас {name1}");
-        Console.WriteLine($"Общий показатель брони  равен: {unit1.Armor}");
-        Console.WriteLine($"Фактическое значение здоровья равно: {unit1.RealHealth}");
-        Console.WriteLine($"Минимальный урон {minDamage1}");
-        Console.WriteLine($"Максимальный урон {maxDamage1}");
-
-
-        Combat combat = new Combat();
-
-        Console.WriteLine();
-        Console.WriteLine("Начало битвы! ");
-        Combat.StartCombat(unit, unit1);
-        Console.WriteLine();
-        Console.WriteLine("Бой завершился! ");
-        Combat.ShowResults();
-    
-
-     }
-       
-}   
+    }
+}
