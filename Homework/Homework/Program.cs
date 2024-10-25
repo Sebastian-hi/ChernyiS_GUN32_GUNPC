@@ -1,18 +1,4 @@
-﻿using System.ComponentModel.Design;
-using System.Globalization;
-using System.Numerics;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using System.Net.Http.Headers;
-using static System.Net.Mime.MediaTypeNames;
-using Homework;
-using System.Runtime.InteropServices;
-using System.Linq.Expressions;
-using System;
-using System.Runtime.Intrinsics.Arm;
-using System.Xml.Linq;
-using System.Runtime.CompilerServices;
-using System.Collections;
+﻿using System.Collections;
 
 namespace Homework
 {
@@ -24,7 +10,7 @@ namespace Homework
             Console.WriteLine("Привет! Давай выберем одну из трёх задач. ");
             Console.WriteLine("Напишите цифру от 1 до 3.");
 
-            int task = int.Parse(Console.ReadLine());
+            int.TryParse(Console.ReadLine(), out int task);
 
             switch (task)                              // Выполнение задания в отдельном методе
             {
@@ -42,6 +28,9 @@ namespace Homework
                     CheckTaskThird();
                     break;
 
+                default:
+                    Console.WriteLine("Вы не попали в список (1-3)");
+                    break;
             }
         }
 
@@ -56,14 +45,14 @@ namespace Homework
                 Console.WriteLine("Если что, мы можем выйти из этой программы, если вы напишите '-exit'.");
                 Console.WriteLine("Если продолжаем - напишите любое слово.");
 
-                string exit = Console.ReadLine();
+                string? exit = Console.ReadLine(); // !! Кажется нельзя метод TryParse в переменной типа string.
 
                 if (exit != "-exit")
                 {
                     Console.WriteLine("Хорошо. Продолжаем. Напишите новую строку в наш список. ");
                     List<string> assignment = new List<string>() { "Кто хозяин болота?", "Черничный пирог", "Тыковки" };
 
-                    string text = Console.ReadLine();
+                    string? text = Console.ReadLine();
                     assignment.Add(text);
 
                     Console.WriteLine();
@@ -77,8 +66,8 @@ namespace Homework
                     Console.WriteLine();
                     Console.WriteLine("А теперь давайте вставим новую строку в середину нашего списка. Напишите её. ");
 
-                    string text2 = Console.ReadLine();
-                    assignment.Insert(2, text2);
+                    string? text2 = Console.ReadLine();
+                    assignment.Insert(assignment.Count / 2, text2);
 
                     Console.WriteLine();
                     Console.WriteLine("Отлично, теперь наш список выглядит так: ");
@@ -96,6 +85,12 @@ namespace Homework
         }
         internal class Class2
         {
+            string? exit;
+            string? name;
+            string? name1;
+            int assessment;
+            Dictionary<string, int>? students;
+
             public void TaskLoop()
             {
 
@@ -105,53 +100,45 @@ namespace Homework
                 Console.WriteLine("Если что, мы можем выйти из этой программы, если вы напишите '-exit'.");
                 Console.WriteLine("Если продолжаем - напишите любое слово.");
 
-                string exit = Console.ReadLine();
-
                 if (exit != "-exit")
 
                 {
                     Console.WriteLine("Отлично. Продолжаем");
                     Console.WriteLine();
                     Console.WriteLine("Введите имя студента: ");
-                    string name = Console.ReadLine();
+                    name = Console.ReadLine();
 
                     Console.WriteLine("Так. И оценку от 2 до 5 баллов: ");
-                    int assessment;
-
+                    
                     do
                     {
-                        assessment = int.Parse(Console.ReadLine());
+                       int.TryParse(Console.ReadLine(), out assessment);
 
                     }
-                    while (assessment < 1 || assessment > 6);
+                    while (assessment < 2 || assessment > 5);
+
+                    students = new Dictionary<string, int>()
+                    { 
+                    
+                    };
+
+                    students.Add(name, assessment);
 
 
                     Console.WriteLine("Отлично. Теперь введите имя студента и мы посмотрим его оценку");
 
-                    var students = new Dictionary<string, int>()
+                    name = Console.ReadLine();
+
+                    if (students.TryGetValue(name, out assessment))
                     {
-
-                        [name] = assessment
-
-                    };
-
-                    string name1 = Console.ReadLine();
-
-                    Console.WriteLine();
-
-                    if (name1 == name)
-                    {
-                        Console.WriteLine($"Студент: {name} и оценка {assessment}! ");
+                        Console.WriteLine($"Студент: {name} и его оценка: {assessment}");
                     }
 
                     else
                     {
-                        Console.WriteLine("Такого студента в нашей базе нет. Попробуйте ввести недавнего студента. ");
-                        name1 = Console.ReadLine();
-                        Console.WriteLine($"Студент: {name} и его оценка {assessment}! ");
+                        Console.WriteLine("Такого студента в нашей базе нет. Попробуйте ввести недавнего студента.");
                     }
                 }
-
                 else
                 {
                     Console.WriteLine("Всё понятно, выходим из программы \n");
@@ -231,7 +218,7 @@ namespace Homework
                 Console.WriteLine("Если что, мы можем выйти из этой программы, если вы напишите '-exit'.");
                 Console.WriteLine("Если продолжаем - напишите любое слово.");
 
-                string exit = Console.ReadLine();
+                string? exit = Console.ReadLine();
 
                 if (exit != "-exit")
                 {
@@ -249,7 +236,7 @@ namespace Homework
 
 
                         Console.WriteLine("Напишите элемент нашего списка:  ");
-                        object text = Console.ReadLine();
+                        object? text = Console.ReadLine();
                         Elements.Add(text);
                     }
 
@@ -257,7 +244,7 @@ namespace Homework
 
                     Console.WriteLine("Хотите добавить ещё 3 элемента? Напишите: Yes/No");
 
-                    string answer = Console.ReadLine();
+                    string? answer = Console.ReadLine();
 
                     if (answer == "Yes" )
                     {
@@ -266,7 +253,7 @@ namespace Homework
 
 
                             Console.WriteLine("Напишите элемент нашего списка:  ");
-                            object text = Console.ReadLine();
+                            object? text = Console.ReadLine();
                             Elements.Add(text);
                         }
                     }
