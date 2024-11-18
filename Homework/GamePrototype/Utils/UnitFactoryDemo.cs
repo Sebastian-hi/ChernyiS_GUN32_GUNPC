@@ -21,7 +21,7 @@ namespace GamePrototype.Utils
             return player;
         }
 
-        public static Unit CreateGoblinEnemy() => Easy.GoblinDifficulty();
-                                                  //new Goblin(GameConstants.Goblin, 18, 18, 2);
+        public static Unit CreateGoblinEnemy() => new Goblin(GameConstants.Goblin, 18, 18, 2);
+        //new Goblin(GameConstants.Goblin, 18, 18, 2);
     }
 }

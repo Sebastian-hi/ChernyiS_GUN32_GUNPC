@@ -1,0 +1,273 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\gameprototype\\combat\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:combat\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\gameprototype\\combat\\rockpaperscissors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:combat\\rockpaperscissors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\gameprototype\\units\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\gameprototype\\utils\\dungeonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\dungeonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\gameprototype\\units\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\gameprototype\\units\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\gameprototype\\utils\\unitfactorydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\unitfactorydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\gameprototype\\items\\equipitems\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\equipitems\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\gameprototype\\items\\equipitems\\equipitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\equipitems\\equipitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\gameprototype\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\gameprototype\\items\\equipitems\\armour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\equipitems\\armour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\gameprototype\\utils\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\gameprototype\\utils\\hard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\hard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\gameprototype\\game\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:game\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CombatManager.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Combat\\CombatManager.cs",
+              "RelativeDocumentMoniker": "Combat\\CombatManager.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Combat\\CombatManager.cs",
+              "RelativeToolTip": "Combat\\CombatManager.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T10:12:26.241Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Units\\Unit.cs",
+              "RelativeDocumentMoniker": "Units\\Unit.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Units\\Unit.cs",
+              "RelativeToolTip": "Units\\Unit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:31:46.368Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Units\\Player.cs",
+              "RelativeDocumentMoniker": "Units\\Player.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Units\\Player.cs",
+              "RelativeToolTip": "Units\\Player.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:31:46.829Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitFactoryDemo.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Utils\\UnitFactoryDemo.cs",
+              "RelativeDocumentMoniker": "Utils\\UnitFactoryDemo.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Utils\\UnitFactoryDemo.cs",
+              "RelativeToolTip": "Utils\\UnitFactoryDemo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:31:45.439Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Items\\EquipItems\\Weapon.cs",
+              "RelativeDocumentMoniker": "Items\\EquipItems\\Weapon.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Items\\EquipItems\\Weapon.cs",
+              "RelativeToolTip": "Items\\EquipItems\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:31:49.52Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RockPaperScissors.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Combat\\RockPaperScissors.cs",
+              "RelativeDocumentMoniker": "Combat\\RockPaperScissors.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Combat\\RockPaperScissors.cs",
+              "RelativeToolTip": "Combat\\RockPaperScissors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T10:10:41.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Difficulty.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Utils\\Difficulty.cs",
+              "RelativeDocumentMoniker": "Utils\\Difficulty.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Utils\\Difficulty.cs",
+              "RelativeToolTip": "Utils\\Difficulty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T09:18:01.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Hard.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Utils\\Hard.cs",
+              "RelativeDocumentMoniker": "Utils\\Hard.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Utils\\Hard.cs",
+              "RelativeToolTip": "Utils\\Hard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T09:17:59.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GameLoop.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Game\\GameLoop.cs",
+              "RelativeDocumentMoniker": "Game\\GameLoop.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Game\\GameLoop.cs",
+              "RelativeToolTip": "Game\\GameLoop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:31:53.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Armour.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Items\\EquipItems\\Armour.cs",
+              "RelativeDocumentMoniker": "Items\\EquipItems\\Armour.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Items\\EquipItems\\Armour.cs",
+              "RelativeToolTip": "Items\\EquipItems\\Armour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:31:50.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EquipItem.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Items\\EquipItems\\EquipItem.cs",
+              "RelativeDocumentMoniker": "Items\\EquipItems\\EquipItem.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Items\\EquipItems\\EquipItem.cs",
+              "RelativeToolTip": "Items\\EquipItems\\EquipItem.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:31:49.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Items\\Item.cs",
+              "RelativeDocumentMoniker": "Items\\Item.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Items\\Item.cs",
+              "RelativeToolTip": "Items\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:31:48.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Units\\Inventory.cs",
+              "RelativeDocumentMoniker": "Units\\Inventory.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Units\\Inventory.cs",
+              "RelativeToolTip": "Units\\Inventory.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:31:47.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DungeonBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Utils\\DungeonBuilder.cs",
+              "RelativeDocumentMoniker": "Utils\\DungeonBuilder.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\GamePrototype\\Utils\\DungeonBuilder.cs",
+              "RelativeToolTip": "Utils\\DungeonBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:31:43.103Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 141,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

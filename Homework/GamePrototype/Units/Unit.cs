@@ -51,10 +51,9 @@ namespace GamePrototype.Units
 
         public abstract void HandleCombatComplete();
 
-        public virtual void SwapWeapon(Player player)
-        {
-            player.SwapWeapon();
-        }
+        public virtual void SwapWeapon() { }
+
+        public virtual void SwapArmour() { }
 
         public virtual void AddItemToInventory(Item item) 
         {

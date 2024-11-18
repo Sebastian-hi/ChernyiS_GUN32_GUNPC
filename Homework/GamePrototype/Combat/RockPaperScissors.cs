@@ -5,5 +5,7 @@
         Rock = 1,
         Paper,
         Scissors,
+        SwapWeapon,
+        SwapArmour,
     }
 }

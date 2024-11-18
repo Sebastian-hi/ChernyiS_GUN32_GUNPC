@@ -7,10 +7,14 @@ namespace GamePrototype.Combat
         private readonly Random _random = new();
         
         public Unit StartCombat(Unit player, Unit enemy) => PlayCombatRoutine(player, enemy);
-
+        
         private Unit PlayCombatRoutine(Unit player, Unit enemy)
         {
             //player.SwapWeapon();
+            //Console.WriteLine("Поменяли оружие");
+
+            //player.SwapArmour();
+            //Console.WriteLine("Поменяли броню");
 
             Console.WriteLine(GetCombatString());
             while (player.Health > 0 && enemy.Health > 0) 
@@ -38,10 +42,13 @@ namespace GamePrototype.Combat
 
         private string GetCombatString() => $"\nType {RockPaperScissors.Rock} = {(int)RockPaperScissors.Rock}"  +
             $"| {RockPaperScissors.Paper} = {(int)RockPaperScissors.Paper}" +
-            $"| {RockPaperScissors.Scissors} = {(int)RockPaperScissors.Scissors}";
+            $"| {RockPaperScissors.Scissors} = {(int)RockPaperScissors.Scissors}" + 
+            $"| {RockPaperScissors.SwapWeapon} = {(int)RockPaperScissors.SwapWeapon}" +
+            $"| {RockPaperScissors.SwapArmour} = {(int)RockPaperScissors.SwapArmour}";
 
         private void HandleCombatInput(Unit player, Unit enemy, RockPaperScissors rockPaperScissors)
         {
+            
             var enemyInput = (RockPaperScissors) _random.Next(1, 3);
             Console.WriteLine($"\nResult player = {rockPaperScissors} | enemy = {enemyInput}");
             switch (rockPaperScissors) 
@@ -66,6 +73,20 @@ namespace GamePrototype.Combat
                     break;
 
                 case RockPaperScissors.Rock when enemyInput == RockPaperScissors.Paper:
+                    ApplyDamage(enemy, player);
+                    break;
+
+                case RockPaperScissors.SwapWeapon:
+                    player.SwapWeapon();
+                    Console.WriteLine("Поменяли оружие");
+                    Console.WriteLine("Пока выхватывали другое оружие, враг успел нанести урон");
+                    ApplyDamage(enemy, player);
+                    break;
+
+                case RockPaperScissors.SwapArmour:
+                    player.SwapArmour();
+                    Console.WriteLine("Поменяли броню");
+                    Console.WriteLine("Пока надевали новый комплект брони, враг успел нанести урон.");
                     ApplyDamage(enemy, player);
                     break;
 

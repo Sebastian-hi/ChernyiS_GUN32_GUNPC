@@ -41,3 +41,4 @@ C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\GameProtot
 C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\GamePrototype\obj\Debug\net6.0\GamePrototype.pdb
 C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\GamePrototype\obj\Debug\net6.0\GamePrototype.genruntimeconfig.cache
 C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\GamePrototype\obj\Debug\net6.0\ref\GamePrototype.dll
+C:\Users\Sebastian.B4M\OneDrive\Desktop\ChernyiS_GUN32_GUNPC\Homework\GamePrototype\obj\Debug\net6.0\GamePrototype.sourcelink.json
