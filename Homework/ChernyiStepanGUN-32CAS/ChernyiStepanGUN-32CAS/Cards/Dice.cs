@@ -21,7 +21,7 @@ namespace ChernyiStepanGUN_32CAS.Cards
         public Dice (int min, int max)
         {
 
-            if (min <1 || min > int.MaxValue || min>max)
+            if (min <1 || min>max)
             {
                 throw new WrongDiceNumberException(min, 1, int.MaxValue);
             }

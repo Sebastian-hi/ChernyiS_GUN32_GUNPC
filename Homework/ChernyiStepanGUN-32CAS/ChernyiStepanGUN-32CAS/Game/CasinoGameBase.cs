@@ -8,9 +8,9 @@ namespace ChernyiStepanGUN_32CAS.Game
 
         public delegate void MethodContainer();
 
-        public event MethodContainer OnWin;
-        public event MethodContainer OnLoose;
-        public event MethodContainer OnDraw;
+        private event MethodContainer OnWin;
+        private event MethodContainer OnLoose;
+        private event MethodContainer OnDraw;
 
         protected void OnWinInvoke()
         {
@@ -26,10 +26,6 @@ namespace ChernyiStepanGUN_32CAS.Game
         }
 
 
-        abstract protected void FactoryMethod();
-
-
+        private abstract protected void FactoryMethod();
     }
-
-
 }

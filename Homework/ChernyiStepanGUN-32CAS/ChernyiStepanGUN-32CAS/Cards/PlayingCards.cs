@@ -4,7 +4,6 @@ using System;
 namespace ChernyiStepanGUN_32CAS.Cards
 {
     //"Игральные карты и кости"
-
     public enum CardsSuit
     {
         Diamonds,
@@ -29,15 +28,15 @@ namespace ChernyiStepanGUN_32CAS.Cards
     public struct Card(CardsSuit cardsSuit, CardsValue cardsValue)
     {
 
-            private readonly int _cardsSuit = (int)cardsSuit;
-            private readonly int _cardsValue = (int)cardsValue;
+            private readonly CardsSuit _cardsSuit = cardsSuit;
+            private readonly CardsValue _cardsValue = cardsValue;
 
-            public readonly int CardsSuit
+            public readonly CardsSuit CardsSuit
             {
-                get { return _cardsSuit; }
+                get { return  _cardsSuit; }
             }
 
-            public readonly int CardsValue
+            public readonly CardsValue CardsValue
             {
                 get { return _cardsValue; }
             }
