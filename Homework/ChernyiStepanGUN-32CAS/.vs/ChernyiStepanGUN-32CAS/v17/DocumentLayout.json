@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\chernyistepangun-32cas\\chernyistepangun-32cas\\game\\casino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|solutionrelative:chernyistepangun-32cas\\game\\casino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\chernyistepangun-32cas\\chernyistepangun-32cas\\game\\blackjack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|solutionrelative:chernyistepangun-32cas\\game\\blackjack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\chernyistepangun-32cas\\chernyistepangun-32cas\\service\\filesystemsaveloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|solutionrelative:chernyistepangun-32cas\\service\\filesystemsaveloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\chernyistepangun-32cas\\chernyistepangun-32cas\\game\\casino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|solutionrelative:chernyistepangun-32cas\\game\\casino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\chernyistepangun-32cas\\chernyistepangun-32cas\\game\\thedicegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|solutionrelative:chernyistepangun-32cas\\game\\thedicegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\chernyistepangun-32cas\\chernyistepangun-32cas\\player\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|solutionrelative:chernyistepangun-32cas\\player\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\chernyistepangun-32cas\\chernyistepangun-32cas\\cards\\playingcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +31,8 @@
       "RelativeMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|solutionrelative:chernyistepangun-32cas\\game\\casinogamebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\chernyistepangun-32cas\\chernyistepangun-32cas\\player\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|solutionrelative:chernyistepangun-32cas\\player\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\chernyistepangun-32cas\\chernyistepangun-32cas\\game\\thedicegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|solutionrelative:chernyistepangun-32cas\\game\\thedicegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\chernyistepangun-32cas\\chernyistepangun-32cas\\welcome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|solutionrelative:chernyistepangun-32cas\\welcome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\chernyistepangun-32cas\\chernyistepangun-32cas\\game\\blackjack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|solutionrelative:chernyistepangun-32cas\\game\\blackjack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C39A394E-8FF1-4AD0-9E50-E40A63B86308}|ChernyiStepanGUN-32CAS\\CasinoGame.csproj|c:\\users\\sebastian.b4m\\onedrive\\desktop\\chernyis_gun32_gunpc\\homework\\chernyistepangun-32cas\\chernyistepangun-32cas\\cards\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CasinoGameBase.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Game\\CasinoGameBase.cs",
               "RelativeDocumentMoniker": "ChernyiStepanGUN-32CAS\\Game\\CasinoGameBase.cs",
               "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Game\\CasinoGameBase.cs",
               "RelativeToolTip": "ChernyiStepanGUN-32CAS\\Game\\CasinoGameBase.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA6wBAAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T08:14:45.496Z",
               "IsPinned": true,
@@ -68,13 +68,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PlayingCards.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Cards\\PlayingCards.cs",
               "RelativeDocumentMoniker": "ChernyiStepanGUN-32CAS\\Cards\\PlayingCards.cs",
               "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Cards\\PlayingCards.cs",
               "RelativeToolTip": "ChernyiStepanGUN-32CAS\\Cards\\PlayingCards.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCcAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAApwB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T08:25:33.135Z",
               "IsPinned": true,
@@ -82,15 +82,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Casino.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Game\\Casino.cs",
               "RelativeDocumentMoniker": "ChernyiStepanGUN-32CAS\\Game\\Casino.cs",
               "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Game\\Casino.cs",
               "RelativeToolTip": "ChernyiStepanGUN-32CAS\\Game\\Casino.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAwwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T12:01:23.737Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TheDiceGame.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Game\\TheDiceGame.cs",
+              "RelativeDocumentMoniker": "ChernyiStepanGUN-32CAS\\Game\\TheDiceGame.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Game\\TheDiceGame.cs",
+              "RelativeToolTip": "ChernyiStepanGUN-32CAS\\Game\\TheDiceGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T10:27:12.781Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlackJack.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Game\\BlackJack.cs",
+              "RelativeDocumentMoniker": "ChernyiStepanGUN-32CAS\\Game\\BlackJack.cs",
+              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Game\\BlackJack.cs",
+              "RelativeToolTip": "ChernyiStepanGUN-32CAS\\Game\\BlackJack.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwE0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T10:26:29.632Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -102,48 +130,23 @@
               "RelativeDocumentMoniker": "ChernyiStepanGUN-32CAS\\Player\\Profile.cs",
               "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Player\\Profile.cs",
               "RelativeToolTip": "ChernyiStepanGUN-32CAS\\Player\\Profile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T12:48:47.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FileSystemSaveLoadService.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Service\\FileSystemSaveLoadService.cs",
               "RelativeDocumentMoniker": "ChernyiStepanGUN-32CAS\\Service\\FileSystemSaveLoadService.cs",
               "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Service\\FileSystemSaveLoadService.cs",
               "RelativeToolTip": "ChernyiStepanGUN-32CAS\\Service\\FileSystemSaveLoadService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T10:44:48.392Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TheDiceGame.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Game\\TheDiceGame.cs",
-              "RelativeDocumentMoniker": "ChernyiStepanGUN-32CAS\\Game\\TheDiceGame.cs",
-              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Game\\TheDiceGame.cs",
-              "RelativeToolTip": "ChernyiStepanGUN-32CAS\\Game\\TheDiceGame.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T10:27:12.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BlackJack.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Game\\BlackJack.cs",
-              "RelativeDocumentMoniker": "ChernyiStepanGUN-32CAS\\Game\\BlackJack.cs",
-              "ToolTip": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Game\\BlackJack.cs",
-              "RelativeToolTip": "ChernyiStepanGUN-32CAS\\Game\\BlackJack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T10:26:29.632Z"
             },
             {
               "$type": "Document",
@@ -171,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian.B4M\\OneDrive\\Desktop\\ChernyiS_GUN32_GUNPC\\Homework\\ChernyiStepanGUN-32CAS\\ChernyiStepanGUN-32CAS\\Welcome\\Program.cs",
               "RelativeDocumentMoniker": "ChernyiStepanGUN-32CAS\\Welcome\\Program.cs",

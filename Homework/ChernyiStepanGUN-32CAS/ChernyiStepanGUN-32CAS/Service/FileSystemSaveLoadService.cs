@@ -20,7 +20,7 @@ namespace ChernyiStepanGUN_32CAS.Service
         {
             using StreamReader sr = File.OpenText(path);
             string? texts;
-            while ((texts = sr.ReadLine()) != null)
+            while ( (texts = sr.ReadLine() ) != null)
             {
                 return texts;
             }

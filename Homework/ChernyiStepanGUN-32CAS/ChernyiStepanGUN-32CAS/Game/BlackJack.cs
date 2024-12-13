@@ -8,6 +8,10 @@ namespace ChernyiStepanGUN_32CAS.Game
 
         private List<Card> _allCardList = new();
 
+        public bool Win = false;
+        public bool Lose = false;
+        public bool Draw = false;
+
         public override void PlayGame()
         {
             FactoryMethod();
@@ -63,13 +67,21 @@ namespace ChernyiStepanGUN_32CAS.Game
             if ((valuePlayer > valueMachine) || ((valuePlayer <= 21) && (valueMachine > 21 || valueMachine < valuePlayer)))
             {
                 Console.WriteLine("Поздравляем! Победа!!");
+                 Win = true;
                 OnWinInvoke();
             }
 
             else if ((valuePlayer < valueMachine) || ((valueMachine <= 21) && (valuePlayer > 21 || valuePlayer < valueMachine)))
             {
                 Console.WriteLine("Ну, что ж. Повезёт в другой раз. Написать о вреде азартных игр?");
+                Lose = true;
                 OnLooseInvoke();
+            }
+
+            else if ((valuePlayer >= 21) && (valueMachine >= 21))
+            {
+                Console.WriteLine("Вот это да! Ничья. Победила дружба.");
+                OnDrawInvoke();
             }
 
             // НИЧЬЯ
@@ -79,11 +91,7 @@ namespace ChernyiStepanGUN_32CAS.Game
             }
 
             
-            if ((valuePlayer >= 21) && (valueMachine >= 21))
-            {
-                Console.WriteLine("Вот это да! Ничья. Победила дружба.");
-                OnDrawInvoke();
-            }
+            
 
             
         }

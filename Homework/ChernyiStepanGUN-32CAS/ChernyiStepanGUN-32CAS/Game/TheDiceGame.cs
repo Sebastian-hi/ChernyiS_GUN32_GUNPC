@@ -8,6 +8,10 @@ namespace ChernyiStepanGUN_32CAS.Game
         private int _min = MinValue;
         private int _max = MaxValue;
 
+        public bool Win = false;
+        public bool Lose = false;
+        public bool Draw = false;
+
         public override void PlayGame()
         {
             FactoryMethod();
@@ -49,12 +53,14 @@ namespace ChernyiStepanGUN_32CAS.Game
             if (valuePlayer > valueMachine)                                 //КАК БУДУТ ГОТОВЫ ИВЕНТЫ
             {
                 Console.WriteLine("Поздравляем! Вы Победили.");
+                Win = true;
                 OnWinInvoke();
             }
 
             else if (valueMachine >  valuePlayer)
             {
                 Console.WriteLine("Ну, что ж. Повезёт в другой раз. Написать о вреде азартных игр?");
+                Lose = true;
                 OnLooseInvoke();
             }   
 

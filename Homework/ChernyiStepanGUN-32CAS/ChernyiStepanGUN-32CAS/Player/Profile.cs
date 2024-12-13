@@ -9,6 +9,8 @@ namespace ChernyiStepanGUN_32CAS.Player
     public class Profile
     {
         public string Name = null;
-        public int Money = default;
+        public int PlayerMoney = default;
+        public int CasinoMoney = default;
+        public int Bet = default;
     }
 }
