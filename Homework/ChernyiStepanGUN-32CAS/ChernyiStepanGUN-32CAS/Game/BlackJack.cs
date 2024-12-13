@@ -1,8 +1,4 @@
 ﻿using ChernyiStepanGUN_32CAS.Cards;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ChernyiStepanGUN_32CAS.Game
 {
@@ -67,13 +63,13 @@ namespace ChernyiStepanGUN_32CAS.Game
             if ((valuePlayer > valueMachine) || ((valuePlayer <= 21) && (valueMachine > 21 || valueMachine < valuePlayer)))
             {
                 Console.WriteLine("Поздравляем! Победа!!");
-                //OnWinInvoke();
+                OnWinInvoke();
             }
 
             else if ((valuePlayer < valueMachine) || ((valueMachine <= 21) && (valuePlayer > 21 || valuePlayer < valueMachine)))
             {
                 Console.WriteLine("Ну, что ж. Повезёт в другой раз. Написать о вреде азартных игр?");
-                //OnLooseInvoke();
+                OnLooseInvoke();
             }
 
             // НИЧЬЯ
@@ -85,7 +81,8 @@ namespace ChernyiStepanGUN_32CAS.Game
             
             if ((valuePlayer >= 21) && (valueMachine >= 21))
             {
-                //OnDrawInvoke();
+                Console.WriteLine("Вот это да! Ничья. Победила дружба.");
+                OnDrawInvoke();
             }
 
             
@@ -108,10 +105,10 @@ namespace ChernyiStepanGUN_32CAS.Game
 
             int AllScore = valuePlayer + valueMachine;
 
-            if ((valuePlayer == valueMachine) && (AllScore < 21))
+            if ((valuePlayer == valueMachine) && (valuePlayer<21 && valueMachine<21))
             {
                 Console.WriteLine("Ну вы ребята даёте..");
-                Console.WriteLine("Ещё по одной карте. "); //ЧТО ЗА ЦИКЛ ЁМАЁ
+                Console.WriteLine("Ещё по одной карте. ");    // ЦИКЛ
                 ExtraRound(valuePlayer, valueMachine);
             }
 
@@ -120,17 +117,17 @@ namespace ChernyiStepanGUN_32CAS.Game
 
         private void ShowCard(Card firstCard, Card secondCard)
         {
-            Console.Write("{0} {1} ", firstCard.CardsSuit, firstCard.CardsValue);
-            Console.Write("и {0} {1}.", secondCard.CardsSuit, secondCard.CardsValue);
+            Console.Write("{0} {1} ", firstCard.CardsSuit, firstCard.СardsValue);
+            Console.Write("и {0} {1}.", secondCard.CardsSuit, secondCard.СardsValue);
         }
 
         private void ShowCard(Card onlyOneCard)
         {
-            Console.WriteLine("{0} {1} ", onlyOneCard.CardsSuit, onlyOneCard.CardsValue);
+            Console.WriteLine("{0} {1} ", onlyOneCard.CardsSuit, onlyOneCard.СardsValue);
         }
 
 
-        private void Shuffle()  //Перетасовывает карты в случайном порядке и добавляет их в очередь.
+        private void Shuffle() 
         {
             Random random = new();
 
@@ -147,14 +144,13 @@ namespace ChernyiStepanGUN_32CAS.Game
 
         private int ShowScore(Card firstCard, Card secondCard)
         {
-            int value = (int)firstCard.CardsSuit + (int)firstCard.CardsValue + (int)secondCard.CardsSuit + (int)secondCard.CardsValue;
+            int value = firstCard.FactCardsValue + secondCard.FactCardsValue;
             return value;
         }
 
         private int ShowScore(Card firstCard)
         {
-            int value = (int)firstCard.CardsSuit + (int)firstCard.CardsValue;
-            return value;
+            return firstCard.FactCardsValue;
         }
 
     }

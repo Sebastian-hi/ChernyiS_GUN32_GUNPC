@@ -1,5 +1,4 @@
 ﻿using System;
-using System;
 
 namespace ChernyiStepanGUN_32CAS.Cards
 {
@@ -28,17 +27,22 @@ namespace ChernyiStepanGUN_32CAS.Cards
     public struct Card(CardsSuit cardsSuit, CardsValue cardsValue)
     {
 
-            private readonly CardsSuit _cardsSuit = cardsSuit;
-            private readonly CardsValue _cardsValue = cardsValue;
+            public readonly CardsSuit CardsSuit = cardsSuit;
+            public readonly CardsValue СardsValue = cardsValue;
 
-            public readonly CardsSuit CardsSuit
+           
+            public readonly int FactCardsValue
             {
-                get { return  _cardsSuit; }
-            }
+                get
+                {
+                    if ((int)СardsValue == 14)   
+                        return 11;
+                    
+                    if ((int)СardsValue > 10)
+                        return 10;
 
-            public readonly CardsValue CardsValue
-            {
-                get { return _cardsValue; }
+                    else return (int)СardsValue;
+                }
             }
     } 
 }

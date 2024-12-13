@@ -6,23 +6,23 @@ namespace ChernyiStepanGUN_32CAS.Game
     {
         public abstract void PlayGame();
 
-        public delegate void MethodContainer();
+        public delegate void MethodContainer(string message);
 
-        private event MethodContainer OnWin;
-        private event MethodContainer OnLoose;
-        private event MethodContainer OnDraw;
+        private event MethodContainer? OnWin;
+        private event MethodContainer? OnLoose;
+        private event MethodContainer? OnDraw;
 
         protected void OnWinInvoke()
         {
-            OnWin();
+            OnWin?.Invoke("Поздравляем. Победа!");
         }
         protected void OnLooseInvoke()
         {
-            OnLoose();
+            OnLoose?.Invoke("Ну, что ж. Повезёт в другой раз. Написать о вреде азартных игр?");
         }
         protected void OnDrawInvoke()
         {
-            OnDraw();
+            OnDraw?.Invoke("Вот это да! Ничья. Победила дружба.");
         }
 
 

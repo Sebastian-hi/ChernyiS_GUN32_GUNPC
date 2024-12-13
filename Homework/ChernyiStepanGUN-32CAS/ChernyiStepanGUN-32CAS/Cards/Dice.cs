@@ -1,5 +1,4 @@
-﻿using System;
-using ChernyiStepanGUN_32CAS.Exceptions;
+﻿using ChernyiStepanGUN_32CAS.Exceptions;
 
 namespace ChernyiStepanGUN_32CAS.Cards
 {
